@@ -16,7 +16,7 @@ const Body = ({
     navigate("/Countries/description");
   };
   return (
-    <div className={`body ${dark ? "dark" : ""}`}>
+    <div className={`body vh-100 ${dark ? "dark" : ""}`}>
       <div className="inputs">
         <div className={`search ${dark ? "dark" : ""}`}>
           <svg
