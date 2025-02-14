@@ -74,7 +74,7 @@ function App() {
         <Header handleDark={handleDark} dark={dark} />
         <Routes>
           <Route
-            path="/"
+            path="/Countries"
             element={
               <Body
                 dark={dark}
@@ -89,7 +89,7 @@ function App() {
             }
           />
           <Route
-            path="/description"
+            path="/Countries/description"
             element={
               <Description
                 dark={dark}

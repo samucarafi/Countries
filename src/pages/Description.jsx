@@ -8,7 +8,7 @@ const Description = ({ dark, paises, resetSeach }) => {
         <Link
           className={`link ${dark ? "dark" : ""}`}
           onClick={() => resetSeach()}
-          to="/"
+          to="/Countries"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -13,7 +13,7 @@ const Body = ({
 
   const clickPais = (pais) => {
     setValueClick(pais);
-    navigate("/description");
+    navigate("/Countries/description");
   };
   return (
     <div className={`body ${dark ? "dark" : ""}`}>
