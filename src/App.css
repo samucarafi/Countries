@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: hsl(0, 0%, 100%);
+}
+.dark {
+  color: white;
+}
+.header.dark {
+  background-color: hsl(209, 23%, 22%);
+}
+.header button {
+  border: none;
+  display: flex;
+  align-items: center;
+  background: none;
+  cursor: pointer;
+}
+.header button.dark {
+  color: white;
+}
+.body {
+  box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.253);
+  padding: 10px;
+  background-color: hsl(0, 0%, 98%);
+}
+.body.dark {
+  background-color: hsl(207, 26%, 17%);
+}
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.divLink {
+  margin-bottom: 20px;
+}
+.link {
+  margin-left: 12px;
+  text-decoration: none;
+  color: black;
+  padding: 2px 20px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.233);
+  border-radius: 5px;
+}
+.link.dark {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+}
+.search {
+  padding: 5px;
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.233);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.search.dark {
+  background-color: hsl(209, 23%, 22%);
+}
+.search svg {
+  margin: 5px;
+}
+.search input {
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+.search.dark input {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+}
+#region {
+  margin-bottom: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.233);
+  padding: 10px;
+  border-radius: 5px;
+}
+#region.dark {
+  background-color: hsl(209, 23%, 22%);
+}
+.col {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 300px;
+  border: none;
+}
+.card.dark {
+  background-color: hsl(209, 23%, 22%);
+}
+p.card-text {
+  margin: 0;
+}
+.text-body-secondary.dark {
+  color: white !important;
+}
