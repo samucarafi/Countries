@@ -46,7 +46,7 @@ const Description = ({ dark, paises, resetSeach }) => {
                       </span>
                     </p>
                     <p className="card-text">
-                      Região:
+                      Region:
                       <span
                         className={`text-body-secondary  ${
                           dark ? "dark" : ""
@@ -56,23 +56,13 @@ const Description = ({ dark, paises, resetSeach }) => {
                       </span>
                     </p>
                     <p className="card-text">
-                      Capital:
+                      Sub Region:
                       <span
                         className={`text-body-secondary  ${
                           dark ? "dark" : ""
                         } `}
                       >
-                        {` ${pais.capital}`}
-                      </span>
-                    </p>
-                    <p className="card-text">
-                      Capital:
-                      <span
-                        className={`text-body-secondary  ${
-                          dark ? "dark" : ""
-                        } `}
-                      >
-                        {` ${pais.capital}`}
+                        {` ${pais.subregion}`}
                       </span>
                     </p>
                     <p className="card-text">
@@ -88,31 +78,22 @@ const Description = ({ dark, paises, resetSeach }) => {
                   </div>
                   <div className="col-md-auto">
                     <p className="card-text">
-                      Population:
+                      Área:
                       <span
                         className={`text-body-secondary ${dark ? "dark" : ""} `}
                       >
-                        {` ${pais.population}`}
+                        {` ${pais.area}`}
                       </span>
                     </p>
+
                     <p className="card-text">
-                      Região:
+                      Car Side:
                       <span
                         className={`text-body-secondary  ${
                           dark ? "dark" : ""
                         } `}
                       >
-                        {` ${pais.region}`}
-                      </span>
-                    </p>
-                    <p className="card-text">
-                      Capital:
-                      <span
-                        className={`text-body-secondary  ${
-                          dark ? "dark" : ""
-                        } `}
-                      >
-                        {` ${pais.capital}`}
+                        {` ${[pais.car.side]}`}
                       </span>
                     </p>
                   </div>
